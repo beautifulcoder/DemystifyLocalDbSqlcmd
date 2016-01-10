@@ -8,7 +8,7 @@ namespace DemystifyLocalDbSqlcmd.Models.Contexts
         protected override void Seed(ApplicationDbContext context)
         {
             base.Seed(context);
-            context.Secrets.AddOrUpdate(new Secret { Id = 1, Message = "Hello LocalDB! "});
+            context.Secrets.AddOrUpdate(new Secret { Id = 1, Message = "Hello LocalDB!"});
         }
     }
 }
