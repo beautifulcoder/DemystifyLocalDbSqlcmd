@@ -1,8 +1,8 @@
-﻿using System;
+﻿using DemystifyLocalDbSqlcmd.Models.Contexts;
+using System;
 using System.Data.Entity;
 using System.Web;
 using System.Web.Routing;
-using DemystifyLocalDbSqlcmd.Models.Contexts;
 
 namespace DemystifyLocalDbSqlcmd
 {
